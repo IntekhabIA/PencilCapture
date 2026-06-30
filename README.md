@@ -57,6 +57,8 @@ These features map directly to indicators identified in the research literature:
 - **mean_speed_px_per_sec** — speed drop on complex letters vs simple ones
 
 ## Project Structure
+
+```text
 PencilCapture/
 ├── PencilCaptureApp.swift      — App entry point (@main)
 ├── Models.swift                — StrokePoint and Stroke data models
@@ -66,6 +68,7 @@ PencilCapture/
 ├── ShareSheet.swift            — UIActivityViewController wrapper for export
 ├── CSVManager.swift            — All CSV file logic (append, export, delete)
 └── ContentView.swift           — Main screen UI
+```
 
 ## Requirements
 
