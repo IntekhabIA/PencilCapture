@@ -10,9 +10,33 @@
 		A110DCBB2FEDC49300D161EA /* PencilCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PencilCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A14A78AD2FF45BC000298BBA /* Exceptions for "PencilCapture" folder in "PencilCapture" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.swift,
+			);
+			target = A110DCBA2FEDC49300D161EA /* PencilCapture */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		A14A78AE2FF45BC000298BBA /* Exceptions for "PencilCapture" folder in "Compile Sources" phase from "PencilCapture" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = A110DCB72FEDC49300D161EA /* Sources */;
+			membershipExceptions = (
+				.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A110DCBD2FEDC49300D161EA /* PencilCapture */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A14A78AD2FF45BC000298BBA /* Exceptions for "PencilCapture" folder in "PencilCapture" target */,
+				A14A78AE2FF45BC000298BBA /* Exceptions for "PencilCapture" folder in "Compile Sources" phase from "PencilCapture" target */,
+			);
 			path = PencilCapture;
 			sourceTree = "<group>";
 		};
@@ -251,6 +275,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ABUW2B58M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -282,6 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ABUW2B58M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
